@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get in Touch - Atlantic Tutoring</title>
+    <meta name="description" content="Contact Atlantic Tutoring via WhatsApp, email, or our contact form. We're here to help with your tutoring needs.">
+    <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="site-nav">
+    <div class="nav-inner">
+        <a href="index.html" class="nav-logo">
+            <svg width="40" height="24" viewBox="0 0 80 44" fill="none"><path d="M6 40 L24 8 L40 24 L56 8 L74 40" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
+            Atlantic Tutoring
+        </a>
+        <div class="nav-links">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="about.html" class="nav-link">About</a>
+            <a href="book.html" class="nav-link">Book a Session</a>
+            <a href="contact.html" class="nav-link active">Contact</a>
+            <a href="tools.html" class="nav-link">Tools</a>
+            <a href="book.html" class="btn btn-primary btn-arrow nav-cta">Book Free Call</a>
+        </div>
+    </div>
+</nav>
+
+<!-- PAGE HEADER -->
+<header class="page-header bg-mint">
+    <span class="section-badge">Contact</span>
+    <h1 class="h-display">Get in Touch</h1>
+</header>
+
+<!-- SCALLOP -->
+<div class="scallop-divider" style="background:var(--mint);">
+    <svg viewBox="0 0 1440 60" preserveAspectRatio="none"><path d="M0,0 C120,60 240,60 360,0 C480,60 600,60 720,0 C840,60 960,60 1080,0 C1200,60 1320,60 1440,0 L1440,60 L0,60 Z" fill="#FFF8ED"/></svg>
+</div>
+
+<!-- CONTACT CONTENT -->
+<section class="bg-cream section-pad">
+    <div class="container-wide">
+        <div class="contact-grid reveal revealed">
+            <div class="contact-method">
+                <h3>WhatsApp</h3>
+                <p>The quickest way to reach us</p>
+                <a href="https://wa.me/1234567890" class="btn btn-primary btn-arrow">Message on WhatsApp</a>
+            </div>
+            <div class="contact-method">
+                <h3>Email</h3>
+                <p>For longer queries</p>
+                <a href="mailto:hello@atlantictutoring.com" class="btn btn-outline btn-arrow">Send us an Email</a>
+            </div>
+        </div>
+
+        <div class="divider-line" style="margin-bottom:clamp(40px,6vw,64px);"></div>
+
+        <div class="contact-form-wrapper reveal revealed">
+            <h3>Contact Form</h3>
+            <p class="form-subtitle">Or drop us a message here</p>
+            <form class="contact-form" action="https://formspree.io/f/mojnzewv" method="POST">
+                <div class="form-group">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" id="name" name="name" class="form-input" placeholder="Your name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" id="email" name="email" class="form-input" placeholder="your@email.com" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="subject" class="form-label">Subject</label>
+                    <select id="subject" name="subject" class="form-select" required>
+                        <option value="">Select a subject</option>
+                        <option value="maths-cs-physics">Maths / CS / Physics</option>
+                        <option value="english-humanities-arts">English / Humanities / Arts</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea id="message" name="message" class="form-textarea" placeholder="Tell us how we can help..." required></textarea>
+                </div>
+                
+                <button type="submit" class="btn btn-primary btn-arrow">Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- SCALLOP -->
+<div class="scallop-divider" style="background:var(--cream);">
+    <svg viewBox="0 0 1440 60" preserveAspectRatio="none"><path d="M0,0 C120,60 240,60 360,0 C480,60 600,60 720,0 C840,60 960,60 1080,0 C1200,60 1320,60 1440,0 L1440,60 L0,60 Z" fill="#0A1628"/></svg>
+</div>
+
+<!-- CTA -->
+<section class="cta-block bg-navy">
+    <div class="reveal revealed">
+        <span class="section-badge">Ready to Start?</span>
+        <h2>Book your free intro call</h2>
+        <p class="subtitle" style="color:rgba(255,255,255,0.7);">15 minutes to discuss your needs and see if we're the right fit.</p>
+        <div class="cta-buttons">
+            <a href="book.html" class="btn btn-accent btn-arrow">Book with Hannah</a>
+            <a href="book.html" class="btn btn-white btn-arrow">Book with Cameron</a>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+    <p>Atlantic Tutoring &copy; 2026 · Pictou Island, Nova Scotia · hello@atlantictutoring.com</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

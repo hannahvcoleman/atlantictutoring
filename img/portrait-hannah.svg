@@ -1,0 +1,9 @@
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none">
+  <!-- Portrait placeholder -->
+  <rect x="0" y="0" width="80" height="80" stroke="currentColor" stroke-width="2" fill="none"/>
+  <!-- Simple person silhouette -->
+  <circle cx="40" cy="25" r="8" stroke="currentColor" stroke-width="2" fill="none"/>
+  <path d="M25 55 Q25 40 40 40 Q55 40 55 55" stroke="currentColor" stroke-width="2" fill="none"/>
+  <!-- Initial -->
+  <text x="40" y="70" text-anchor="middle" font-family="Georgia, serif" font-size="16" font-weight="900" fill="currentColor">H</text>
+</svg>
