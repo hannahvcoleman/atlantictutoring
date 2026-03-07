@@ -3,12 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - Atlantic Tutoring</title>
-    <meta name="description" content="Learn about Hannah and Cameron, expert tutors in maths, sciences, humanities, and IB programmes.">
+
+    <title>Meet Your Tutors — IB, GCSE & A-Level Specialists | Atlantic Tutoring</title>
+    <meta name="description" content="Hannah (maths, physics, CS) and Cameron (English, Global Politics, TOK, Theatre) — two friendly, experienced tutors for international school students worldwide.">
+
+    <link rel="canonical" href="https://atlantictutoring.com/about.html">
+
+    <meta property="og:title" content="Meet Your Tutors | Atlantic Tutoring">
+    <meta property="og:description" content="Two experienced, friendly tutors for IB, GCSE, and A-Level students at international schools.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://atlantictutoring.com/about.html">
+    <meta property="og:image" content="https://atlantictutoring.com/img/og-image.jpg">
+    <meta property="og:site_name" content="Atlantic Tutoring">
+
     <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+    <link rel="alternate" hreflang="x-default" href="https://atlantictutoring.com/" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "name": "Hannah Coleman",
+          "jobTitle": "STEM Tutor & Co-Founder",
+          "worksFor": {
+            "@type": "EducationalOrganization",
+            "name": "Atlantic Tutoring",
+            "url": "https://atlantictutoring.com"
+          },
+          "description": "Online maths, physics, and computer science tutor for IB, GCSE, and A-Level students. BSc Physics (Nottingham), PhD researcher in Medical Physics and Machine Learning (UCL), former Quantitative Risk Analyst.",
+          "knowsAbout": ["IB Mathematics", "GCSE Mathematics", "A-Level Physics", "Python Programming", "IB Computer Science", "IB Internal Assessment"],
+          "alumniOf": [
+            {"@type": "CollegeOrUniversity", "name": "University of Nottingham"},
+            {"@type": "CollegeOrUniversity", "name": "University College London"}
+          ],
+          "hasCredential": [
+            {"@type": "EducationalOccupationalCredential", "credentialCategory": "degree", "name": "BSc Physics, University of Nottingham"},
+            {"@type": "EducationalOccupationalCredential", "credentialCategory": "degree", "name": "BA East European Civilisations, University of Nottingham"}
+          ]
+        },
+        {
+          "@type": "Person",
+          "name": "Cameron MacDonald",
+          "jobTitle": "Humanities Tutor & Co-Founder",
+          "worksFor": {
+            "@type": "EducationalOrganization",
+            "name": "Atlantic Tutoring",
+            "url": "https://atlantictutoring.com"
+          },
+          "description": "Online English, Global Politics, Theatre, and TOK tutor for IB and iGCSE students. 20+ years teaching across Canada, USA, Australia, and the UK. Former IB TOK Coordinator at EIFA International School, London.",
+          "knowsAbout": ["IB English Literature", "IB Language and Literature", "IB Global Politics", "IB Theatre", "Theory of Knowledge", "IB Extended Essay", "iGCSE English", "iGCSE Drama"],
+          "alumniOf": [
+            {"@type": "CollegeOrUniversity", "name": "University of British Columbia"}
+          ],
+          "hasCredential": [
+            {"@type": "EducationalOccupationalCredential", "credentialCategory": "degree", "name": "BEd, University of British Columbia"},
+            {"@type": "EducationalOccupationalCredential", "credentialCategory": "degree", "name": "MEd (in progress), St. Francis Xavier University"}
+          ]
+        }
+      ]
+    }
+    </script>
 </head>
 <body>
 
@@ -42,53 +101,52 @@
 </div>
 
 <!-- APPROACH TEXT -->
-<section class="bg-cream section-pad">
+<section class="bg-cream section-pad" style="padding-top: clamp(16px, 2vw, 32px);">
     <div class="container-narrow reveal revealed">
         <div class="approach-text">
-            <p>Atlantic Tutoring brings world-class, curriculum-spanning education to students across the globe. Between us, we bring over two decades of international teaching experience and high-level industry practice. We know what academic excellence looks like at the highest levels, and we know how to help students get there. Deep expertise, however, is only half the equation. Whether we are breaking down A-Level Maths or helping a student navigate IB Global Politics, our approach is rooted in patience and empathy. We have both experienced the challenges of rigorous academia firsthand. We teach students how to think critically, find their voice, and rediscover the genuine joy of learning.</p>
+            <p>We're Hannah and Cameron — bringing world-class, curriculum-spanning education to students across the globe. Between us, we bring over two decades of teaching experience in international schools and universities across the globe. We know what academic excellence looks like, whether it's the IB Diploma, GCSE or A-Level, we've helped students from all over the world discover their potential and feel more confident in their subjects. Our approach is rooted in patience and empathy - we have both experienced the challenges of rigorous academia firsthand. We teach students how to think critically, find their voice, and rediscover the genuine joy of learning..</p>
         </div>
         <div class="divider-line"></div>
     </div>
 </section>
 
 <!-- BIO GRID -->
-<section class="bg-cream section-pad">
+<section class="bg-cream section-pad" style="padding-top:0;">
     <div class="container-wide">
         <div class="bio-grid">
             <!-- Hannah's Full Bio -->
-            <div class="bio-section reveal revealed">
-                <img src="img/hannah.jpg" alt="Hannah Coleman - STEM tutor with expertise in maths, computer science, and physics" class="bio-portrait">
+            <div class="bio-section reveal revealed" id="hannah">
+                <img src="img/hannah.jpg" alt="Hannah Coleman — online IB and GCSE maths tutor" class="bio-portrait">
                 <h2 class="bio-name">Hannah Coleman</h2>
                 <p class="bio-subjects">Maths · Computer Science · Physics</p>
                 
                 <div class="bio-content">
-                    <p>Hannah knows what it's like to struggle with maths. She got an E in her GCSE — the kind of grade that makes you think maths just isn't for you. But she didn't stop there. She went on to earn a BSc in Physics from the University of Nottingham, research a PhD in Medical Physics and Machine Learning at UCL's Centre for Advanced Biomedical Imaging, and build a career as a Quantitative Risk Analyst in London, writing Python code and building risk models for an asset management firm.</p>
-                    
-                    <p>That journey — from 'I can't do maths' to using it every day at the highest level — is what shapes how she teaches. She's not the tutor who finds everything easy and can't understand why you don't get it. She's the one who figured out how to get it, step by step, and can show you how to do the same.</p>
-                    
-                    <p>Hannah specialises in GCSE and MYP Mathematics, AS-Level and IB Mathematics, IB Computer Science, Internal Assessment support for Maths and CS, Python programming fundamentals, and Physics foundations.</p>
-                    
-                    <p>She's also a published science communicator (Physics World) and has spent years doing outreach at events including the Royal Society Summer Science Festival, Cheltenham Science Festival, and New Scientist Live — so explaining complex ideas in accessible ways is second nature.</p>
+                    <p>Hannah didn't connect with maths at school, but found her way into it through physics, first as a mature student at the University of Nottingham where she earned a BSc, and then as a PhD researcher at UCL, developing machine learning algorithms for medical imaging. She now tutors IB and GCSE students at international schools around the world, specialising in making maths feel less intimidating and more intuitive.</p>
+
+                    <p>Her academic research led her into programming and quantitative thinking more broadly. She moved into finance, taking on a full-time role as a Quantitative Risk Analyst, building Python-based analytics tools. She also holds a BA in Russian and Slavonic Studies, and spent a year living and working in Sarajevo. Before her research career, Hannah spent time as a science teaching assistant in a secondary school, running small-group sessions for students.She's also a published science communicator and has spent years explaining complex ideas at public events including the Royal Society Summer Science Festival, Cheltenham Science Festival, and New Scientist Live.</p>
+
+                    <p>Hannah's teaching style is shaped by that non-linear journey. She understands what it feels like when maths doesn't click, and she's patient with the process of getting there. She focuses on building genuine understanding rather than memorising procedures, and she's good at finding the explanation that works for each student.</p>
+
+                    <p>Hannah specialises in GCSE, A Level and IB Mathematics, Python programming fundamentals, and Physics foundations.</p>
                 </div>
                 
                 <div class="qualifications">
-                    <p>BSc Physics — University of Nottingham</p>
-                    <p>BA East European Civilisations — University of Nottingham</p>
-                    <p>PhD Researcher, Medical Physics & Machine Learning — UCL</p>
-                    <p>Quant Risk Analyst — Marble Bar Asset Management, London</p>
+                    <p>BSc Physics - University of Nottingham</p>
+                    <p>BA East European Civilisations - University of Nottingham</p>
+                    <p>PhD Researcher, Medical Physics & Machine Learning - UCL</p>
                 </div>
             </div>
 
             <!-- Cameron's Full Bio -->
-            <div class="bio-section reveal revealed">
-                <img src="img/cameron.jpg" alt="Cameron MacDonald - Humanities tutor specializing in English, global politics, and TOK" class="bio-portrait">
+            <div class="bio-section reveal revealed" id="cameron">
+                <img src="img/cameron.jpg" alt="Cameron MacDonald — online IB English, Global Politics, and TOK tutor" class="bio-portrait">
                 <h2 class="bio-name">Cameron MacDonald</h2>
                 <p class="bio-subjects">English · Global Politics · Theatre · TOK</p>
                 
                 <div class="bio-content">
                     <p>Cameron is an educator with more than 20 years of classroom experience across four countries. He's taught in Canada, the United States, Australia, and the United Kingdom, bringing a genuinely global perspective to his work with students.</p>
                     
-                    <p>Most recently, Cameron spent over seven years at EIFA International School in London — a bilingual French/English school — where he was part of the team that established IB World School accreditation. He coordinated Theory of Knowledge across the school, taught IB Global Politics and Theatre, and guided students through Extended Essays in multiple subjects. Before that, he spent eight years teaching English and Theatre Studies at St Monica's College in Melbourne.</p>
+                    <p>Most recently, Cameron spent over seven years at EIFA International School in London — a bilingual French/English school — where he was part of the team that established IB World School accreditation. He coordinated Theory of Knowledge across the school, taught IB Global Politics and Theatre, and guided students through Extended Essays in multiple subjects. The school drew families from across Europe and beyond, and Cameron's work was deeply shaped by that international, multicultural context. Before that, he spent eight years teaching English and Theatre Studies at St Monica's College in Melbourne.</p>
                     
                     <p>Cameron's approach is pastoral and student-centred. He believes that academic success starts with feeling supported, and he has a talent for meeting students where they are and helping them find their voice — whether that's in an essay, a TOK presentation, or a Global Politics exam.</p>
                     
@@ -128,7 +186,7 @@
 
 <!-- FOOTER -->
 <footer class="site-footer">
-    <p>Atlantic Tutoring &copy; 2026 · Pictou Island, Nova Scotia · hello@atlantictutoring.com</p>
+    <p>Atlantic Tutoring &copy; 2026 · Online tutoring for international school students worldwide · hello@atlantictutoring.com</p>
 </footer>
 
 <script src="js/main.js"></script>
