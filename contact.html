@@ -59,24 +59,10 @@
 <!-- CONTACT CONTENT -->
 <section class="bg-cream section-pad">
     <div class="container-wide">
-        <div class="contact-grid reveal revealed">
-            <div class="contact-method">
-                <h3>WhatsApp</h3>
-                <p>The quickest way to reach us</p>
-                <a href="https://wa.me/447547283065" class="btn btn-primary btn-arrow">Message on WhatsApp</a>
-            </div>
-            <div class="contact-method">
-                <h3>Email</h3>
-                <p>For longer queries</p>
-                <a href="mailto:hello@atlantictutoring.com" class="btn btn-outline btn-arrow">Send us an Email</a>
-            </div>
-        </div>
-
-        <div class="divider-line" style="margin-bottom:clamp(40px,6vw,64px);"></div>
-
         <div class="contact-form-wrapper reveal revealed">
             <h3>Contact Form</h3>
-            <p class="form-subtitle">Or drop us a message here</p>
+            <p class="form-subtitle">Drop us a message here</p>
+            
             <form class="contact-form" action="https://formspree.io/f/mojnzewv" method="POST">
                 <div class="form-group">
                     <label for="name" class="form-label">Name</label>
@@ -103,8 +89,16 @@
                     <textarea id="message" name="message" class="form-textarea" placeholder="Tell us how we can help..." required></textarea>
                 </div>
                 
-                <button type="submit" class="btn btn-primary btn-arrow">Send Message</button>
+                <button type="submit" class="btn btn-primary" style="display: block; margin: 0 auto;">Send Message</button>
             </form>
+        </div>
+
+        <div class="divider-line" style="margin-bottom:clamp(40px,6vw,64px);"></div>
+
+        <div class="contact-method" style="text-align: center; display: flex; flex-direction: column; align-items: center; margin: 0 auto; max-width: 320px;">
+            <h3>Prefer Email?</h3>
+            <p>For longer queries or detailed questions</p>
+            <a href="mailto:hello@atlantictutoring.com" class="btn btn-outline btn-arrow" style="font-size: 0.9rem; padding: 12px 24px; margin: 0 auto;">Send us an Email</a>
         </div>
     </div>
 </section>
@@ -118,7 +112,7 @@
 <section class="cta-block bg-navy">
     <div class="reveal revealed">
         <span class="section-badge">Ready to Start?</span>
-        <h2>Book your free intro call</h2>
+        <h2>Book your free consultation</h2>
         <p class="subtitle" style="color:rgba(255,255,255,0.7);">15 minutes to discuss your needs and see if we're the right fit.</p>
         <div class="cta-buttons">
             <a href="book.html" class="btn btn-accent btn-arrow">Book with Hannah</a>
